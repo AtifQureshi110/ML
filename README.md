@@ -52,8 +52,40 @@ For binary classification, logistic regression predicts probabilities and assign
 
 Logistic Regression can work with both numerical and categorical features, but the target column must be categorical. Features are often preprocessed (e.g., one-hot encoding for categorical features).
 ​
+# Decision Trees
 
+1. Purpose:
 
+Decision Trees are versatile algorithms that can be used for both regression and classification tasks.
+
+2. How It Works:
+
+. The model creates a tree-like structure where each node represents a feature, each branch represents a decision, and each leaf node represents an outcome (class label or continuous value).
+. The tree splits the dataset into subsets based on feature values to maximize homogeneity (for classification) or minimize variance (for regression).
+
+3. Key Concepts:
+
+. Splitting: Partitioning the dataset based on feature values.
+. Impurity: Measures the "mixing" of classes in a subset. Common measures include:
+ . Gini Index: Used for classification.
+ . Entropy (Information Gain): Used for classification.
+ . Mean Squared Error (MSE): Used for regression.
+. Pruning: Reducing the size of the tree to prevent overfitting.
+
+4. Advantages:
+
+. Easy to interpret and visualize.
+. Handles both numerical and categorical data.
+. Non-linear decision boundaries.
+
+5. Disadvantages:
+
+. Prone to overfitting if the tree grows too deep.
+. Sensitive to small variations in the data.
+
+Example Use Case:
+Classification: Predict whether a customer will buy a product based on features like income, age, and browsing behavior.
+Regression: Predict house prices based on features like size, location, and number of rooms.
 
 
 
