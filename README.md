@@ -87,6 +87,18 @@ Example Use Case:
 Classification: Predict whether a customer will buy a product based on features like income, age, and browsing behavior.
 Regression: Predict house prices based on features like size, location, and number of rooms.
 
+# Random Forest
 
+1. What It Is:
 
+. Random Forest is an ensemble learning method that builds multiple decision trees and combines their predictions (by majority vote for classification or averaging for regression) to improve performance and reduce overfitting.
+
+2. Why Learn It After Decision Trees?
+
+. It builds upon Decision Trees and introduces the concept of ensemble learning, teaching you how combining multiple models can improve accuracy and generalization.
+
+### Key Advantages:
+
+More robust and less prone to overfitting compared to individual Decision Trees.
+Handles missing data and is less sensitive to outliers.
  
